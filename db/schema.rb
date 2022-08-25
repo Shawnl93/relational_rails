@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2022_08_25_021125) do
   create_table "cars", force: :cascade do |t|
     t.string "make"
     t.string "model"
+    t.string "color"
     t.integer "year"
     t.boolean "auto_pilot"
     t.datetime "created_at", null: false
