@@ -19,5 +19,11 @@ RSpec.describe Dealership do
         expect(Dealership.created_by).to eq([@tesla, @tesla_1])
       end
     end
+
+    describe 'counts the amount of cars' do
+      it 'counts amount of cars' do
+        expect(@tesla.cars_count).to eq(3)
+      end
+    end
   end
 end
