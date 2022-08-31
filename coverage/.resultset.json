@@ -280,23 +280,15 @@
           null
         ]
       },
-      "/Users/s.lee/turing/mod2/projects/relational_rails/app/models/car.rb": {
+      "/Users/s.lee/turing/mod2/projects/relational_rails/app/controllers/dealerships_controller.rb": {
         "lines": [
           1,
           1,
-          null
-        ]
-      },
-      "/Users/s.lee/turing/mod2/projects/relational_rails/app/controllers/cars_controller.rb": {
-        "lines": [
-          1,
-          1,
-          2,
+          3,
           null,
           null,
           1,
-          1,
-          null,
+          0,
           null,
           null
         ]
@@ -306,8 +298,15 @@
           1,
           null
         ]
+      },
+      "/Users/s.lee/turing/mod2/projects/relational_rails/app/models/car.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1661904182
+    "timestamp": 1661905406
   }
 }
