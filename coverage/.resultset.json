@@ -264,11 +264,11 @@
           1,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
         ]
@@ -286,8 +286,28 @@
           1,
           null
         ]
+      },
+      "/Users/s.lee/turing/mod2/projects/relational_rails/app/controllers/cars_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/s.lee/turing/mod2/projects/relational_rails/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1661899591
+    "timestamp": 1661904182
   }
 }
