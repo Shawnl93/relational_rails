@@ -20,4 +20,11 @@ RSpec.describe 'Dealerships Car index' do
     expect(page).to have_content(@stesla.model)
     expect(page).to have_content(@xtesla.model)
   end
+
+  it "has link to go to car's index page" do
+    visit "/cars/#{car.id}"
+
+    click_link('Cars')
+    expect(current_path).to eq('/cars')
+  end
 end

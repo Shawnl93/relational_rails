@@ -51,4 +51,11 @@ RSpec.describe 'the cars show page' do
     save_and_open_page
     expect(page).to have_content(car.auto_pilot)
   end
+
+  it "has link to go to car's index page" do
+    visit "/cars/#{car.id}"
+
+    click_link('Cars')
+    expect(current_path).to eq('/cars')
+  end
 end
